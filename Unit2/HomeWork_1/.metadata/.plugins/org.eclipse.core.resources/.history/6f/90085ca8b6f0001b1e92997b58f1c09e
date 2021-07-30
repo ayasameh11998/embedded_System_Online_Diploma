@@ -1,0 +1,17 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 29, 2021
+ *      Author: ayasa_001
+ */
+
+#include <stdio.h>
+
+int main()
+{
+	int number;
+	printf("##########Console-output###\n");
+	scanf("%d", &number);
+
+	return 0;
+}

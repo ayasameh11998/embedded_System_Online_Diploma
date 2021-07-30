@@ -1,0 +1,14 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 30, 2021
+ *      Author: ayasa_001
+ */
+
+#include <stdio.h>
+
+int main()
+{
+
+	return 0;
+}

@@ -1,0 +1,22 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 29, 2021
+ *      Author: ayasa_001
+ */
+
+#include <stdio.h>
+
+int main()
+{
+	/////////////////////////////////
+	setvbuf(stdout, NULL, _IONBF, 0);
+	setvbuf(stderr, NULL, _IONBF, 0);
+	/////////////////////////////////
+
+	int num1;
+	int num2;
+
+	printf("Enter two numbers: ");
+	return 0;
+}

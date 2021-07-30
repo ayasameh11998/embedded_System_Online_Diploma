@@ -1,0 +1,95 @@
+23:48:45 **** Rebuild of configuration Debug for project Print_Integer_Entered_By_User ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Print_Integer_Entered_By_User.exe main.o 
+Info: Nothing to build for Print_Integer_Entered_By_User
+23:51:44 **** Incremental Build of configuration Debug for project Print_Integer_Entered_By_User ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Print_Integer_Entered_By_User.exe main.o 
+23:52:38 **** Rebuild of configuration Debug for project EX2_Print_Integer_Entered_By_User ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o EX2_Print_Integer_Entered_By_User.exe main.o 
+23:58:29 **** Rebuild of configuration Debug for project EX3_Add_Two_Integers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o EX3_Add_Two_Integers.exe main.o 
+Info: Nothing to build for EX3_Add_Two_Integers
+Info: Nothing to build for EX2_Print_Integer_Entered_By_User
+Info: Nothing to build for EX2_Print_Integer_Entered_By_User
+Info: Nothing to build for EX2_Print_Integer_Entered_By_User
+Info: Nothing to build for EX2_Print_Integer_Entered_By_User
+Info: Nothing to build for EX3_Add_Two_Integers
+Info: Nothing to build for EX2_Print_Integer_Entered_By_User
+Info: Nothing to build for EX3_Add_Two_Integers
+00:03:44 **** Rebuild of configuration Debug for project EX4_Multiply_Two_Floating_Point_Numbers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o EX4_Multiply_Two_Floating_Point_Numbers.exe main.o 
+Info: Nothing to build for EX4_Multiply_Two_Floating_Point_Numbers
+Info: Nothing to build for EX2_Print_Integer_Entered_By_User
+Info: Nothing to build for EX3_Add_Two_Integers
+Info: Nothing to build for EX4_Multiply_Two_Floating_Point_Numbers
+00:09:41 **** Rebuild of configuration Debug for project EX5_Find_ASCII_Value_of_a_Character ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o EX5_Find_ASCII_Value_of_a_Character.exe main.o 
+Info: Nothing to build for EX5_Find_ASCII_Value_of_a_Character
+Info: Nothing to build for EX2_Print_Integer_Entered_By_User
+Info: Nothing to build for EX3_Add_Two_Integers
+Info: Nothing to build for EX4_Multiply_Two_Floating_Point_Numbers
+Info: Nothing to build for EX5_Find_ASCII_Value_of_a_Character
+00:19:38 **** Rebuild of configuration Debug for project EX6_Swap_Two_Numbers_Using_Temp_Var ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o EX6_Swap_Two_Numbers_Using_Temp_Var.exe main.o 
+Info: Nothing to build for EX6_Swap_Two_Numbers_Using_Temp_Var
+Info: Nothing to build for EX2_Print_Integer_Entered_By_User
+Info: Nothing to build for EX3_Add_Two_Integers
+Info: Nothing to build for EX4_Multiply_Two_Floating_Point_Numbers
+Info: Nothing to build for EX5_Find_ASCII_Value_of_a_Character
+Info: Nothing to build for EX6_Swap_Two_Numbers_Using_Temp_Var
+00:42:54 **** Rebuild of configuration Debug for project EX7_Swap_Two_Numbers_Without_Temp_Var ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'Swap_Two_Numbers_XOR':
+..\main.c:51:8: error: invalid operands to binary ^ (have 'float' and 'float')
+   51 |  *num1 ^= *num2;
+      |        ^~ ~~~~~
+      |           |
+      |           float
+..\main.c:52:16: error: invalid operands to binary ^ (have 'float' and 'float')
+   52 |  *num2 = *num1 ^ *num2;
+      |          ~~~~~ ^ ~~~~~
+      |          |       |
+      |          float   float
+..\main.c:53:16: error: invalid operands to binary ^ (have 'float' and 'float')
+   53 |  *num1 = *num1 ^ *num2;
+      |          ~~~~~ ^ ~~~~~
+      |          |       |
+      |          float   float
+Info: Nothing to build for EX2_Print_Integer_Entered_By_User
+Info: Nothing to build for EX3_Add_Two_Integers
+Info: Nothing to build for EX4_Multiply_Two_Floating_Point_Numbers
+Info: Nothing to build for EX5_Find_ASCII_Value_of_a_Character
+Info: Nothing to build for EX6_Swap_Two_Numbers_Using_Temp_Var
+00:51:43 **** Incremental Build of configuration Debug for project EX7_Swap_Two_Numbers_Without_Temp_Var ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:53:6: error: conflicting types for 'Swap_Two_Numbers_XOR'
+   53 | void Swap_Two_Numbers_XOR(int* num1, int* num2)
+      |      ^~~~~~~~~~~~~~~~~~~~
+..\main.c:11:6: note: previous declaration of 'Swap_Two_Numbers_XOR' was here
+   11 | void Swap_Two_Numbers_XOR(float* num1, float* num2);
+      |      ^~~~~~~~~~~~~~~~~~~~
+Info: Nothing to build for EX2_Print_Integer_Entered_By_User
+Info: Nothing to build for EX3_Add_Two_Integers
+Info: Nothing to build for EX4_Multiply_Two_Floating_Point_Numbers
+Info: Nothing to build for EX5_Find_ASCII_Value_of_a_Character
+Info: Nothing to build for EX6_Swap_Two_Numbers_Using_Temp_Var
+00:51:59 **** Incremental Build of configuration Debug for project EX7_Swap_Two_Numbers_Without_Temp_Var ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o EX7_Swap_Two_Numbers_Without_Temp_Var.exe main.o 
+Info: Nothing to build for EX7_Swap_Two_Numbers_Without_Temp_Var

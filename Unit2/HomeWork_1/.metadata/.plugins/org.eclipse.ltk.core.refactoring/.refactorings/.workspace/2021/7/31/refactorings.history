@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Print_Integer_Entered_By_User&apos; to &apos;EX2_Print_Integer_Entered_By_User&apos;" description="Rename resource &apos;Print_Integer_Entered_By_User&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Print_Integer_Entered_By_User" name="EX2_Print_Integer_Entered_By_User" stamp="1627595546920" updateReferences="true"/>
+</session>

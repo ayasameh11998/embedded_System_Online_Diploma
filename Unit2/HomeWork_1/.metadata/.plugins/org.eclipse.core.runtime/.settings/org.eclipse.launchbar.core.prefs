@@ -1,0 +1,7 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:EX3_Add_Two_Integers Debug,org.eclipse.launchbar.core.descriptorType.default\:EX4_Multiply_Two_Floating_Point_Numbers Debug,org.eclipse.launchbar.core.descriptorType.default\:EX5_Find_ASCII_Value_of_a_Character Debug,org.eclipse.launchbar.core.descriptorType.default\:EX6_Swap_Two_Numbers_Using_Temp_Var Debug,org.eclipse.launchbar.core.descriptorType.default\:EX7_Swap_Two_Numbers_Without_Temp_Var Debug
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:Print_Integer_Entered_By_User\ Debug/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Print_Integer_Entered_By_User\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

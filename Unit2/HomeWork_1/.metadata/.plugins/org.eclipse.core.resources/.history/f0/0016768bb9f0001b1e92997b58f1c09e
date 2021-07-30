@@ -1,0 +1,24 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 30, 2021
+ *      Author: ayasa_001
+ */
+
+#include <stdio.h>
+
+int main()
+{
+	/////////////////////////////////
+	setvbuf(stdout, NULL, _IONBF, 0);
+	setvbuf(stderr, NULL, _IONBF, 0);
+	/////////////////////////////////
+
+	char ch;
+
+	printf("##########Console-output###\n");
+	printf("Enter a character: ");
+	scanf("%c", &ch);
+
+	return 0;
+}

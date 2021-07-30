@@ -1,0 +1,32 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 30, 2021
+ *      Author: ayasa_001
+ */
+
+#include <stdio.h>
+
+void Swap_Two_numbers(float* num1, float* num2);
+
+int main()
+{
+	/////////////////////////////////
+	setvbuf(stdout, NULL, _IONBF, 0);
+	setvbuf(stderr, NULL, _IONBF, 0);
+	/////////////////////////////////
+
+	float num1, num2;
+
+	printf("#########Console_output######\n");
+
+	return 0;
+}
+
+void Swap_Two_numbers(float* num1, float* num2)
+{
+	float temp_variable;
+	temp_variable = *num1;
+	*num1 = *num2;
+	*num2 = temp_variable;
+}

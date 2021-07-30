@@ -1,0 +1,23 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 29, 2021
+ *      Author: ayasa_001
+ */
+
+#include <stdio.h>
+
+int main()
+{
+	/////////////////////////////////
+	setvbuf(stdout, NULL, _IONBF, 0);
+	setvbuf(stderr, NULL, _IONBF, 0);
+	/////////////////////////////////
+
+	int number;
+	printf("##########Console-output###\nEnter a integer: ");
+	printf("Enter a integer: ");
+	scanf("%d", &number);
+
+	return 0;
+}

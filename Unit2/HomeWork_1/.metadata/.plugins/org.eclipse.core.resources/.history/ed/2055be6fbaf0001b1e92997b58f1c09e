@@ -1,0 +1,22 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 30, 2021
+ *      Author: ayasa_001
+ */
+
+#include <stdio.h>
+
+int main()
+{
+
+	return 0;
+}
+
+void Swap_Two_numbers(int* num1, int* num2)
+{
+	int temp_variable;
+	temp_variable = *num1;
+	*num1 = *num2;
+	*num2 = temp_variable;
+}
